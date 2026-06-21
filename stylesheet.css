@@ -1,0 +1,35 @@
+.header h1,.header p {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    flex: auto;
+    width: 50%;
+}
+
+.learning-goals {
+    background-image: url(https://images.wantedly.com/i/SVSSkRg?w=2880);
+    height: 200px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+}
+
+span {
+    color: yellow;
+}
+
+.learning-goals a {
+    background-color: blue;
+    color: white;
+    opacity: 0.9;
+}
+
+.learning-goals a:hover {
+    opacity: 0.5;
+}
