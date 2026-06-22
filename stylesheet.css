@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header h1,.header p {
     text-align: center;
 }
@@ -5,6 +9,7 @@
 ul {
     list-style: none;
     display: flex;
+    padding: 0;
 }
 
 li {
@@ -14,10 +19,11 @@ li {
 
 .learning-goals {
     background-image: url(https://images.wantedly.com/i/SVSSkRg?w=2880);
-    height: 200px;
+    height: 300px;
     text-align: center;
     color: white;
     background-size: cover;
+    background-position: center;
 }
 
 span {
@@ -28,6 +34,9 @@ span {
     background-color: blue;
     color: white;
     opacity: 0.9;
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
 }
 
 .learning-goals a:hover {
